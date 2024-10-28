@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -7,11 +10,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstDemo">
-        <activity
-            android:name=".TargetActivity"
-            android:exported="false"
-            android:label="@string/title_activity_target"
-            android:theme="@style/Theme.FirstDemo" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
