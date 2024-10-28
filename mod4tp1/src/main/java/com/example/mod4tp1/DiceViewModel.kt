@@ -3,7 +3,6 @@ package com.example.mod4tp1
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import java.util.Random
 
 class DiceViewModel : ViewModel() {
 
